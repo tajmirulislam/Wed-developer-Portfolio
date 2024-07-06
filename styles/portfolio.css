@@ -1,0 +1,139 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+
+.secondary-bg{
+    background-color: rgb(243, 204, 197);
+}
+
+.text-primary{
+    color: #ec6809;
+}
+
+.dark-2{
+   color: #537fcf; 
+}
+
+.btn-primary{
+    background-color: #f56804;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.section-title{
+    font-size: 35px;
+    color: #131111;
+
+}
+
+.section-description{
+    font-size: 18px;
+    color: #747272;
+}
+
+/* header */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* list item এর ডট কে মুছে ফেলে - list-style: none; */
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+/* anchor Tag এর নিচের লাইন কে মুছে ফেলে - text-decoration: none;*/
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Banner Styles h4 */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner-profile-picture{
+    width: 540px;
+    height: 620px;
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
+    font-size: 20px;
+}
+
